@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Deepbackground
+  - background
+  - Platform
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: x
+    uniqueID: 829631205
+    locked: 0
+  - name: DeepBackGround
+    uniqueID: 2811369579
+    locked: 0
+  - name: BackGround
+    uniqueID: 821294059
+    locked: 0
+  - name: Platform
+    uniqueID: 1814932571
     locked: 0
