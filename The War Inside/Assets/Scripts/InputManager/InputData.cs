@@ -4,18 +4,12 @@ using UnityEngine;
 
 
 namespace TheWarInside.PlayerInput{
-public class InputData : MonoBehaviour
+[CreateAssetMenu(fileName ="The War Inside/Input/Input Data")]
+public class InputData : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    #region  Variables
+    public float Horizontal;
+    public float Vertical;
+    #endregion
 }
 }
