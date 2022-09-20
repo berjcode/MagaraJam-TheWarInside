@@ -2,15 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace TheWarInside.PlayerInput{
-    [CreateAssetMenu(fileName ="The War Inside/Input/InputData")]
-    public class InputData : ScriptableObject
+public class InputData : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
     {
-
-        [Header("Data Movement")]
-        public float horizontal;
-       
-
+        
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
 }

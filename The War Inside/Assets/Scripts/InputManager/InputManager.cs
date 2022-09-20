@@ -2,20 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class InputManager : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
 
-namespace TheWarInside.PlayerInput{
-        public class InputManager : MonoBehaviour
-        {
-
-            [SerializeField] private InputData _inputData;
-            
-        void Update()
-        {
-            _inputData.horizontal =Input.GetAxis("Horizontal");
-            
-        }
-
-    
-        }
-
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }
