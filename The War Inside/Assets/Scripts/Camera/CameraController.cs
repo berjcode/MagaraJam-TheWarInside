@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour
 
 void Update()
 {
-    transform.position = Vector3.Slerp(transform.position,new Vector3(target.position.x,transform.position.y,transform.position.z),_cameraSettings.cameraSpeed);
+    transform.position = Vector3.Slerp(transform.position,new Vector3(target.position.x,target.position.y,transform.position.z),_cameraSettings.cameraSpeed);
 }
     
 }
